@@ -1,7 +1,7 @@
 console.log("Weather app is running");
 
-const apiKey = "af540a81e1c0822b98ff51ea0f21c034";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={af540a81e1c0822b98ff51ea0f21c034}";
+const apiKey = "";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={}";
 
 const searchInput = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
@@ -59,3 +59,4 @@ searchInput.addEventListener("keypress", (e) => {
         weatherApp(searchInput.value);
     }
 });
+
